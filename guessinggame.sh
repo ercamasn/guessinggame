@@ -1,5 +1,8 @@
+########################   Variable Definitions   ###########################
 numfiles=$(ls | wc -l)
 endtheloop=0
+
+########################   Program   ###########################
 
 echo "Welcome to the guessing game!"
 echo "How many files do you think are in the current directory?"
